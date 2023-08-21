@@ -1,0 +1,93 @@
+.filters {
+    background-color: white;
+    height: 70px;
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  
+  .search-button {
+    background-color: #FF5A5F;
+    color: #FFFFFF;
+    height: 48px;
+    width: 20%;
+    border: none;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+  }
+  
+  
+  .filter-box {
+    height: 100%;
+    width: 25%;
+    border-right: 1px solid #DDDDDD;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .filter-box:first-child {
+    border-left: none;
+  }
+  
+  .filter-title {
+    font-weight: 600;
+  }
+  
+  .filter-subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .popover {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #FAFAFA;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    padding: 10px;
+    z-index: 1;
+  }
+  
+  .filter-box:hover .popover {
+    display: block;
+  }
+  
+  .state-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .state-list h2 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .city-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .city-list li {
+    margin-left: 20px;
+  }
+  
